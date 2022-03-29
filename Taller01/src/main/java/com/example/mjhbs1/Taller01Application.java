@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Taller01Application {
 	
 	@RequestMapping(value="/")
-	public String index() {
-		return "<h1> Holiwis <h1>";
-	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(Taller01Application.class, args);
