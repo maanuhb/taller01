@@ -39,12 +39,12 @@
 
 .img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 1em 1em 0 0;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 .img__container {

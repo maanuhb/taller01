@@ -6,30 +6,30 @@
     <title>Registro</title>
     <!-- Google Fonts Muli -->
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="src/main/styles.css">
+    <link rel="stylesheet" type "text/css" href="CSS/style.css"/>
 </head>
 <body>
     <section class="wrapper">
         <div class="container">
             <div class="img__container">
-            <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="salad" class="img"> 
+            <img src="https://dei.uca.edu.sv/wp-content/uploads/bfi_thumb/logo-39ah6opyldetr0nr6t1jwg.jpg" alt="salad" class="img"> 
         </div>   
             <div class="content">
                 <h1 class="subtitle"> Ingresa tus datos</h1>
                 <h2 class="title">Departamento</h2>
                 <select name="Departaments" id="dep">
-                    <option value="La Libertad">Lib</option>
-                    <option value="San Salvador">Sslv</option>
-                    <option value="Santa Ana">Sta</option>
-                    <option value="Sonsonate">Son</option>
-                <option value="Ahuachapan">Ahc</option>
-                    <option value="San Miguel">Snm</option>
-                    <option value="La Union">Lun</option>
-                    <option value="Cabañas">Cbñ</option>
-                <option value="San Vicente">Savt</option>
-                    <option value="Cuscatlán">Csct</option>
-                    <option value="Morazan">Mrz</option>
-                    <option value="Chalatenango">Cltn</option>
+                    <option>La Libertad</option>
+                    <option>San Salvador</option>
+                    <option>Santa Ana</option>
+                    <option>Sonsonate</option>
+                	<option>Ahuachapan</option>
+                    <option>San Miguel</option>
+                    <option>La Union</option>
+                    <option>Caba&ntildeas</option>
+                	<option>San Vicente</option>
+                    <option>Cuscatl&aacuten</option>
+                    <option>Morazan</option>
+                    <option>Chalatenango</option>
                   </select>
                   <h2 class="title">Nombre:</h2>
                 <input type="text" class="name"  name="name" required>
